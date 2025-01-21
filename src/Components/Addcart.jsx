@@ -59,7 +59,7 @@ const AddCart = () => {
   };
 
   const handleRemove = (id) => {
-    fetch('https://backend-onlineshoppingwebsite-mern-stack.onrender.comproduct/removecart', {
+    fetch('https://backend-onlineshoppingwebsite-mern-stack.onrender.com/product/removecart', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',

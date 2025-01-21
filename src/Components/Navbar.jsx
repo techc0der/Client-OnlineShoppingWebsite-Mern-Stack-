@@ -7,7 +7,7 @@ const Navbar = ({ cartproduct, setcartproduct }) => {
   const { setloginbtn, loginbtn, setproduct } = useContext(products)
 
   const openSellerPage = () => {
-    const sellerWindow = window.open('http://localhost:5174/', '_blank');
+    const sellerWindow = window.open('https://seller-onlineshoppingwebsite-mern-stack.onrender.com', '_blank');
     if (sellerWindow) {
       sellerWindow.focus();
     }

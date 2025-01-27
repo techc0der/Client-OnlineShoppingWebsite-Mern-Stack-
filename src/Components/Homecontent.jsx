@@ -14,7 +14,7 @@ const Homecontent = () => {
               <button className='bg-[#f9bf29] p-2 px-4 w-fit rounded-full text-black ' >Explore us</button>
             </div>
             <div className='h-[100%]  z-[1]'>
-              <img src="./public/images'/couch.png" className='w-[100%] mt-7 mb-[-185px]' alt="" />
+              <img src="/images'/couch.png" className='w-[100%] mt-7 mb-[-185px]' alt="" />
             </div>
           </div>
         </div>
